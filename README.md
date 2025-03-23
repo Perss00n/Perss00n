@@ -1,7 +1,6 @@
 # Hi there, I'm Marcus! 👋
 
-I am an aspiring backend developer with a deep passion for programming and problem-solving. I have a particular love for C# and enjoy working with technologies like SQL, PHP, and JavaScript.
-I thrive on challenges and solving complex problems, which makes this field a perfect fit for me. My journey reflects my commitment to growth and learning, and I’m excited to bring my enthusiasm and determination to every project I take on.
+I am an aspiring backend developer with a deep passion for programming and problem-solving. I have a particular love for C# and PHP, but also enjoy working with SQL, JavaScript, HTML, and CSS. I thrive on challenges and solving complex problems, which makes this field a perfect fit for me. My journey reflects my commitment to growth and learning, and I’m excited to bring my enthusiasm and determination to every project I take on.
 - 🌍 Based in Uddevalla, Sweden
 - 🌐 Personal website: [marcuslehm.se](https://marcuslehm.se)
 - 💼 Open to collaborating on exciting projects
