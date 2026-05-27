@@ -20,20 +20,6 @@ Before transitioning into IT, I worked as a floor layer after completing a three
 - **Concepts:** REST APIs, Object-Oriented Programming, Agile/Scrum, Unit Testing
 - **Interests:** UI/UX design, frontend development, clean architecture
 
-## 📈 GitHub Stats
-
-![Marcus's GitHub stats](https://github-readme-stats.vercel.app/api?username=Perss00n&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Perss00n&layout=compact&theme=default)
-
-## 📌 Pinned Repositories
-
-A selection of projects I've worked on:
-
-- [**UddevallaClimbing**](https://github.com/Perss00n/UddevallaClimbing): A backend solution for managing customers, products, and orders for a fictional climbing shop. *(C#)*
-- [**DragonSlayerRPG**](https://github.com/Perss00n/DragonSlayerRPG): A turn-based RPG console game written in C#. *(C#)*
-- [**HangMan**](https://github.com/Perss00n/HangMan): Classic word-guessing game implemented in C#. *(C#)*
-- [**GuessTheNumber2.0**](https://github.com/Perss00n/GuessTheNumber2.0): An upgraded version of GuessTheNumber with additional features. *(C#)*
-
 ## 📫 Get in Touch
 
 - **Email:** [Perss00n@gmail.com](mailto:Perss00n@gmail.com)
