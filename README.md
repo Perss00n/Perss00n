@@ -1,48 +1,70 @@
-# Hi there, I'm Marcus! 👋
 
-Backend developer with a passion for clean code, thoughtful design, and well-crafted user experiences. I recently completed a two-year Higher Vocational Education (YH) as a backend developer at Yrkeshögskolan in Uddevalla, with my LIA (internship) at IOSoft AB in Tanumshede, where I worked on real-world development projects in a professional environment.
+# Hi, I'm Marcus! 👋
 
-While my main focus is backend development in C#/.NET, I genuinely enjoy frontend work and design — I've built several websites from scratch and love the moment when functionality and aesthetics come together.
+I've been interested in computers and programming since my teenage years, but ended up spending 18 years working as a floor layer. In 2023, I decided it was time to turn that long-standing interest into something more and went back to school to become a developer.
 
-Before transitioning into IT, I worked as a floor layer after completing a three-year vocational program in construction. That craftsman background has shaped how I approach development: with precision, patience, and a focus on delivering quality.
+I graduated in May 2026 as a backend developer, with C# and .NET as my main focus. During my internship at IOSoft AB, I got to work in a real development team, writing code, tests, and getting feedback through code reviews.
+
+These days, I spend a lot of my time building my own projects and exploring new technologies. I mainly enjoy backend development, but I also like frontend work and understanding how everything connects, from the database to what the user sees.
+
+I'm also interested in AI, particularly running local models and experimenting with coding agents to see where they can actually help in software development.
 
 - 🌍 Based in Uddevalla, Sweden
-- 🌐 Personal website: [marcuslehm.se](https://marcuslehm.se)
+- 🌐 [Personal website](https://marcuslehm.se)
 - 🎓 Backend Developer — Yrkeshögskolan i Uddevalla (2024–2026)
-- 💼 Open to new opportunities and exciting collaborations
+- 💼 Looking for my first full-time developer role
 
 ## 🛠️ Technologies & Tools
 
-- **Languages:** C#, JavaScript, SQL, PHP, HTML, CSS
-- **Frameworks & Libraries:** .NET, ASP.NET Core, Entity Framework
-- **Databases:** Microsoft SQL Server, MySQL
-- **Tools:** Visual Studio, Visual Studio Code, Git, GitHub
-- **Concepts:** REST APIs, Object-Oriented Programming, Agile/Scrum, Unit Testing
-- **Interests:** UI/UX design, frontend development, clean architecture
+- **Languages:** C#, PHP, JavaScript, SQL, HTML, CSS
+- **Frameworks:** .NET, ASP.NET Core, Blazor, Entity Framework Core, Laravel
+- **Databases:** SQL Server, MySQL
+- **Testing:** xUnit, NSubstitute, Testcontainers
+- **Tools:** Visual Studio, VS Code, Git, GitHub, GitHub Actions, Docker
+- **Other:** REST APIs, Clean Architecture, CQRS, ASP.NET Identity
 
-- ## ✨ Featured Projects
+## ✨ Featured Projects
 
-Two larger projects I'm especially proud of — both built end-to-end as sole developer with a focus on Clean Architecture, testability, and modern .NET.
+Here are two of my larger .NET projects. I built both from scratch, handling everything from application architecture and database design to frontend development and testing.
 
 ### 🎮 [PlaySphere](https://github.com/Perss00n/PlaySphere-Showcase)
 
-A web application for discovering games, built on **.NET 10**, **Blazor Server** and **Clean Architecture**. Users can browse the latest releases, search the entire IGDB catalog, filter by genre/platform/year/rating, and save favorites to their profile. Highlights include dependency inversion with interfaces in Application and implementations in Infrastructure, decorator-based caching with `IMemoryCache.GetOrCreateAsync` to prevent cache stampedes, the Result pattern instead of exceptions for expected failures, ASP.NET Identity with multi-tier roles, and ~380 unit tests written in xUnit v3 with NSubstitute.
+A web application for discovering games, built with **.NET 10**, **Blazor Server**, and **Clean Architecture**.
 
-`C#` &nbsp;·&nbsp; `.NET 10` &nbsp;·&nbsp; `Blazor Server` &nbsp;·&nbsp; `EF Core 10` &nbsp;·&nbsp; `SQL Server` &nbsp;·&nbsp; `IGDB API` &nbsp;·&nbsp; `xUnit`
+Users can browse new releases, search the IGDB game catalog, filter games by genre, platform, year, and rating, and save favorites to their profiles.
+
+Some of the things I've worked on:
+
+- Clean Architecture with separation between Domain, Application, Infrastructure, and presentation
+- Caching with `IMemoryCache.GetOrCreateAsync` to avoid duplicate requests
+- Result pattern for handling expected failures without relying on exceptions
+- ASP.NET Identity with multiple user roles
+- Around 380 unit tests using xUnit v3 and NSubstitute
+
+`C#` · `.NET 10` · `Blazor Server` · `EF Core 10` · `SQL Server` · `IGDB API` · `xUnit`
 
 ### 🎉 [Office Event Hub](https://github.com/Perss00n/Office-Event-Hub-Showcase)
 
-An event management platform for offices, built on **.NET 10**, **.NET Aspire**, **Blazor Server** and **Clean Architecture**. Employees can create events, upload banner images, register or unregister with one click, and see live updates across all connected clients. Highlights include a rich domain model with `Event` as an aggregate root enforcing its own business rules, CQRS-style commands and queries, an in-process real-time notifier, OpenTelemetry observability for traces and metrics, and integration tests running against a real SQL Server instance via Testcontainers.
+An event management application for workplaces, built with **.NET 10**, **.NET Aspire**, **Blazor Server**, and **Clean Architecture**.
 
-`C#` &nbsp;·&nbsp; `.NET 10` &nbsp;·&nbsp; `.NET Aspire` &nbsp;·&nbsp; `Blazor Server` &nbsp;·&nbsp; `EF Core 10` &nbsp;·&nbsp; `SQL Server` &nbsp;·&nbsp; `CQRS` &nbsp;·&nbsp; `Testcontainers`
+Employees can create events, upload images, register or unregister, and receive live updates when something changes.
 
-> 📁 Both repositories above are **public showcases** — the full source code is kept private. Reach out if you'd like a code walkthrough.
+Some of the technical parts include:
+
+- Domain model with an `Event` aggregate root that handles its own business rules
+- CQRS-style commands and queries
+- Real-time updates between connected clients
+- OpenTelemetry for tracing and metrics
+- Integration tests using Testcontainers with a real SQL Server instance
+
+`C#` · `.NET 10` · `.NET Aspire` · `Blazor Server` · `EF Core 10` · `SQL Server` · `CQRS` · `Testcontainers`
+
+> **About the repositories:** These are public showcases of my projects. The complete source code is currently kept private, but I'm happy to walk through the code and explain how things work.
 
 ## 📫 Get in Touch
 
 - **Email:** [Perss00n@gmail.com](mailto:Perss00n@gmail.com)
 - **Website:** [marcuslehm.se](https://marcuslehm.se)
-- **LinkedIn:** *(www.linkedin.com/in/marcus-lehm-903222412)*
+- **LinkedIn:** [Marcus Lehm](https://www.linkedin.com/in/marcus-lehm-903222412)
 
-Feel free to reach out if you'd like to collaborate, discuss a project, or just talk code!
-
+Feel free to reach out if you want to talk about development, projects, or potential opportunities.
